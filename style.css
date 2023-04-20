@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+
+.container {
+    background-image: url(clock.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row{
+    color: #f93d14;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.timer{
+    font-size: 10vmax;
+    padding: 0 5px;
+    margin-top:20px ;
+}
+.btn{
+    display: flex;
+    align-items: end;
+    margin-top: 80px;
+}
+.heading{
+    display: block;
+    color: #f93d14;
+
+
+
+    background-color: black;
+
+}
